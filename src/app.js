@@ -1,4 +1,5 @@
 $ = require('jquery');
-yarrah = function yarrah() {
-	alert('naber yarraam');
-};
+//require('bootstrap');
+require('datatables.net-bs')(window, $);
+require('datatables.net-fixedheader')(window, $);
+require('datatables.net-responsive-bs')(window, $);
