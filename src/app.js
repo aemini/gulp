@@ -1,5 +1,6 @@
 $ = require('jquery');
-//require('bootstrap');
+jQuery = $;
+require('bootstrap');
 require('datatables.net-bs')(window, $);
 require('datatables.net-fixedheader')(window, $);
 require('datatables.net-responsive-bs')(window, $);
