@@ -15,7 +15,7 @@ gulp.task('javascript', function () {
 	var bundledStream = through();
 
 	bundledStream
-		.pipe(source('src/app.js'))
+		.pipe(source('src/admin.js'))
 		.pipe(buffer())
 		.pipe(sourcemaps.init({loadMaps: true}))
 		.pipe(uglify())
